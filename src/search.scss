@@ -1,0 +1,45 @@
+.container {
+  .search-area {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    .input {
+      outline: none;
+      background: transparent;
+      // color: #ffff;
+      font-size: 1.5rem;
+      width: 80%;
+      // text-align: center;
+      &:focus {
+        border-bottom: 1px solid #ffff;
+      }
+    }
+  }
+  .output{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   grid-template-rows: repeat(2,1fr);
+   justify-self: center;
+   .current-weather{
+      justify-self: center;
+   }
+   p{
+      font-size: 24px;
+   }
+   .attributes{
+      display: flex;
+      align-items: center;
+
+      gap: 2rem;
+      .temperature{
+         text-align: center;
+      }
+      .value{
+         font-size: 3rem;
+         font-weight: bold;
+      }
+   }
+  }
+}
