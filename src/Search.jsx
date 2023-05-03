@@ -13,7 +13,7 @@ export default function Search({ onSearchChange }) {
     onSearchChange(searchVal);
 
     try {
-      const response = await fetch('https://weather-app-cm3f.onrender.com/search', {
+      const response = await fetch('http://localhost:8000/search', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

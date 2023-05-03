@@ -5,4 +5,3 @@ export const geoOptions = {
     'X-RapidAPI-Host': import.meta.env.VITE_X_RAPID_API_HOST,
   },
 };
-//console.log(import.meta.env.VITE_X_RAPID_API_KEY);
